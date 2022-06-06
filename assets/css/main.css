@@ -12,6 +12,10 @@
          color: #696969;
      }
 
+     .main h4 {
+      font-size : 25px
+    }
+
      img {
          height: 90px;
      }
@@ -42,7 +46,7 @@
          font-size: 20px;
          background: #fb8e00;
          display: inline-block;
-         width: 40px;
+         width: 20px;
      }
      span.turn {
          animation: turn 0.7s ease;
