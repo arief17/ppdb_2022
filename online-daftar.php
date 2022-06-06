@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets/img/logo-ico.ico">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <title>Daftar PPDB SMKN 1 KRAGILAN - 2022</title>
+    <title>Daftar PPDB SMKN 1 KRAGILAN - TAHUN 2022</title>
     <style>
         body {
             background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(assets/img/bg3.jpg);
