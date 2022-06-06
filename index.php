@@ -68,7 +68,7 @@
                         <a class="nav-link" href="#quota">Quota Pendaftaran</a>
                     </li>
                 </ul>
-                <a href="ppdb_daftar.php" class="btn btn-brand ms-lg-3">Daftar</a>
+                <a href="semi-daftar.php" class="btn btn-brand ms-lg-3">Daftar</a>
             </div>
         </div>
     </nav>
