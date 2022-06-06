@@ -104,35 +104,32 @@
                 </div>
             </div>
         </div>
-        <form method='POST' action=''>
-            <h4 class="mt-5">
-                <select class="form-select-lg col-md-6 text-center" name="jurusan">
-                    <option value="">---- Pilih Jurusan ----</option>
-                    <option value="<?php echo $tpm ?>">Teknik Pemesinan (TPM)</option>
-                    <option value="<?php echo $tkr ?>">Teknik Kendaraan Ringan (TKR)</option>
-                    <option value="<?php echo $tkj ?>">Teknik Komputer dan Jaringan (TKJ)</option>
-                    <option value="<?php echo $rpl ?>">Rekayasa Perangkat Lunak (RPL)</option>
-                    <option value="<?php echo $otkp ?>">Otomatisasi Tata Kelola Perkantoran (OTKP)</option>
-                    <option value="<?php echo $akl ?>">Akuntansi Keuangan Lembaga (AKL)</option>
-                </select>
-                <button type="submit" name="submit" class="mt-2 btn btn-primary col-sm-6"><i class="bi bi-vector-pen"></i> &nbsp Pilih Jurusan</button>
-            </h4>
+        <h4 class="mt-5">
+            <select class="form-select-lg col-md-6 text-center" id="jurusan" onchange="proses()">
+                <option value="">---- Pilih Jurusan ----</option>
+                <option value="<?php echo $tpm ?>">Teknik Pemesinan (TPM)</option>
+                <option value="<?php echo $tkr ?>">Teknik Kendaraan Ringan (TKR)</option>
+                <option value="<?php echo $tkj ?>">Teknik Komputer dan Jaringan (TKJ)</option>
+                <option value="<?php echo $rpl ?>">Rekayasa Perangkat Lunak (RPL)</option>
+                <option value="<?php echo $otkp ?>">Otomatisasi Tata Kelola Perkantoran (OTKP)</option>
+                <option value="<?php echo $akl ?>">Akuntansi Keuangan Lembaga (AKL)</option>
+            </select>
+        </h4>
 
-        </form>
-
-        <div class="card p-3 shadow" style="background-color: #87c6c6;">
-            <?php
-            if (isset($_POST['submit'])) {
-                $jurusan = $_POST['jurusan'];
-                echo $jurusan;
-            }
-            ?>
-
+        <div class="card p-3 shadow mb-3" style="background-color: #87c6c6;">
+            <span id="pil_jurusan"></span>
         </div>
 
 
 
     </div>
+
+    <script>
+        function proses() {
+            var harga = document.getElementById("jurusan").value;
+            document.getElementById("pil_jurusan").innerHTML = harga;
+        }
+    </script>
 
 </body>
 
