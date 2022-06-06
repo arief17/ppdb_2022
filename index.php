@@ -68,7 +68,7 @@
                         <a class="nav-link" href="#quota">Quota Pendaftaran</a>
                     </li>
                 </ul>
-                <a href="semi-daftar.php" class="btn btn-brand ms-lg-3">Daftar</a>
+                <a href="ppdb_daftar.php" class="btn btn-brand ms-lg-3">Daftar</a>
             </div>
         </div>
     </nav>
@@ -313,9 +313,9 @@
                 <div class="col-md-4">
                     <article class="blog-post">
                         <img src="assets/img/akuntansi.jpg" alt="">
-                        <a href="#" class="tag">Akuntansi Keuangan (AK)</a>
+                        <a href="#" class="tag">Akuntansi Keuangan Lembaga(AKL)</a>
                         <div class="content">
-                            <h5>Akuntansi Keuangan (AK)</h5>
+                            <h5>Akuntansi Keuangan Lembaga (AKL)</h5>
                         </div>
                     </article>
                 </div>
@@ -338,9 +338,9 @@
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h1>QUOTA JURUSAN</h1>
+                        <h1>KUOTA JURUSAN</h1>
                         <p class="mx-auto">Quota Pendaftaran Penerimaan Peserta Didik Baru (PPDB) Tahun 2022</p>
-                        <H1>QUOTA PPDB SMKN 1 KRAGILAN TAHUN 2022 : 504 siswa</H1>
+                        <H1>KUOTA PPDB SMKN 1 KRAGILAN TAHUN 2022 : 504 siswa</H1>
                     </div>
 
                     <table class="table">
@@ -384,14 +384,14 @@
                             </tr>
                             <tr>
                                 <th scope="row">5</th>
-                                <td>Akuntansi (AK)</td>
+                                <td>Akuntansi Keuangan Lembaga (AKL)</td>
                                 <td class="text-center">2</td>
                                 <td class="text-center">36</td>
                                 <td class="text-center">72</td>
                             </tr>
                             <tr>
                                 <th scope="row">6</th>
-                                <td>Manajemen Perkantoran (AP)</td>
+                                <td>Otomatisasi Tata Kelola Perkantoran (OTKP)</td>
                                 <td class="text-center">2</td>
                                 <td class="text-center">36</td>
                                 <td class="text-center">72</td>

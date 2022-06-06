@@ -15,7 +15,7 @@
 
 
     <div class="main">
-        <h4>PPDB SMKN 1 KRAGILAN</h4>
+        <h4>PPDB SMKN 1 KRAGILAN TAHUN 2022</h4>
         <div id="clock">
             <div><span id="days"></span>
                 <p>Hari</p>
