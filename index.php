@@ -254,9 +254,9 @@
     <section id="alur">
         <div class="container">
             <div class="intro">
-                <h1>LINIMASA / ALUR PENDAFTARAN</h1>
-                <p class="mx-auto">Berikut Linimasa / Alur Pendaftaran PPDB SMKN 1 KRAGILAN TAHUN 2022</p>
-                <img src="assets/img/linimasa.JPG" alt="">
+                <h1>FLOW CHART / ALUR PENDAFTARAN</h1>
+                <p class="mx-auto">Berikut Flow Chart / Alur Pendaftaran PPDB SMKN 1 KRAGILAN TAHUN 2022</p>
+                <img src="assets/img/alur.png" alt="">
             </div>
         </div>
     </section>
@@ -313,7 +313,7 @@
                 <div class="col-md-4">
                     <article class="blog-post">
                         <img src="assets/img/akuntansi.jpg" alt="">
-                        <a href="#" class="tag">Akuntansi Keuangan Lembaga(AKL)</a>
+                        <a href="#" class="tag">Akuntansi Keuangan Lembaga (AKL)</a>
                         <div class="content">
                             <h5>Akuntansi Keuangan Lembaga (AKL)</h5>
                         </div>
