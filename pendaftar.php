@@ -41,7 +41,7 @@
     </section>
     <?php
     include 'hub/conn.php';
-    $pendaftar = mysqli_query($conn, "SELECT * FROM kelas");
+    $pendaftar = mysqli_query($conn, "SELECT * FROM tb_siswa");
     $jml_daftar = mysqli_num_rows($pendaftar);
 
     ?>
@@ -68,14 +68,14 @@
                         <?php
                         $no = 1;
 
-                        $pendaftar = mysqli_query($conn, "SELECT kelas,COUNT(*) AS total_pendaftar FROM kelas GROUP BY kelas");
+                        $pendaftar = mysqli_query($conn, "SELECT kompetensi_keahlian,COUNT(*) AS total_pendaftar FROM tb_siswa GROUP BY kompetensi_keahlian");
                         while ($b = mysqli_fetch_array($pendaftar)) {
 
                         ?>
                             <tbody>
                                 <tr>
                                     <th scope="row"><?= $no++ ?></th>
-                                    <td><?= $b['kelas'] ?></td>
+                                    <td><?= $b['kompetensi_keahlian'] ?></td>
                                     <td class="text-center"><?= $b['total_pendaftar'] ?></td>
                                 </tr>
                             <?php
