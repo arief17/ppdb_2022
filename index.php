@@ -53,7 +53,7 @@
                         <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#syarat">Syarat Pendaftaran</a>
+                        <a class="nav-link" href="#syarat">Syarat Daftar</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#jadwal">Jadwal Pendaftaran</a>
@@ -61,11 +61,18 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#alur">Alur Pendaftaran</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#jurusan">Jurusan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#quota">Quota Pendaftaran</a>
+                    <li class="nav-item dropdown mb-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Informasi Pendaftaran
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#jurusan">Kompetensi Keahlian</a></li>
+                            <li><a class="dropdown-item" href="#quota">Kuota Pendaftaran</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#pendaftar.php">Jumlah Pendaftar</a></li>
+                        </ul>
                     </li>
                 </ul>
                 <a href="semi-daftar.php" class="btn btn-brand ms-lg-3">Daftar</a>
@@ -218,7 +225,7 @@
                         <td>24 Juni 2022</td>
                     </tr>
                     <tr>
-                        <td>e. Otomatisa si dan Tata Kelola Perkantoran (OTKP)</td>
+                        <td>e. Otomatisasi dan Tata Kelola Perkantoran (OTKP)</td>
                         <td>27 Juni 2022</td>
                     </tr>
                     <tr>
@@ -266,8 +273,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h1>Jurusan / Program Studi</h1>
-                        <p class="mx-auto">Jurusan / Program Studi yang ada di SMKN 1 Kragilan Terdiri dari 6 Jurusan : TPM, TKR, TKJ, RPL, AK, OTKP</p>
+                        <h1>Kompetensi Keahlian</h1>
+                        <p class="mx-auto">Kompetensi Keahlian yang ada di SMKN 1 Kragilan Terdiri dari 6 Kompetensi Keahlian : TPM, TKR, TKJ, RPL, AK, OTKP</p>
                     </div>
                 </div>
             </div>
@@ -322,9 +329,9 @@
                 <div class="col-md-4">
                     <article class="blog-post">
                         <img src="assets/img/otkp.jfif" alt="">
-                        <a href="#" class="tag">Otomatisasi Tata Kelola Perkantoran (OTKP)</a>
+                        <a href="#" class="tag">Otomatisasi dan Tata Kelola Perkantoran (OTKP)</a>
                         <div class="content">
-                            <h5>Otomatisasi Tata Kelola Perkantoran (OTKP)</h5>
+                            <h5>Otomatisasi dan Tata Kelola Perkantoran (OTKP)</h5>
                         </div>
                     </article>
                 </div>
@@ -338,7 +345,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="intro">
-                        <h1>KUOTA JURUSAN</h1>
+                        <h1>KUOTA KOMPETENSI KEAHLIAN</h1>
                         <p class="mx-auto">Quota Pendaftaran Penerimaan Peserta Didik Baru (PPDB) Tahun 2022</p>
                         <H1>KUOTA PPDB SMKN 1 KRAGILAN TAHUN 2022 : 504 siswa</H1>
                     </div>
@@ -347,10 +354,10 @@
                         <thead>
                             <tr>
                                 <th scope="col">#</th>
-                                <th scope="col">Jurusan</th>
+                                <th scope="col">Kompetensi Keahlian</th>
                                 <th scope="col" class="text-center">Jumlah Rombel</th>
                                 <th scope="col" class="text-center">Siswa Per Rombel</th>
-                                <th scope="col" class="text-center">Quota Jurusan</th>
+                                <th scope="col" class="text-center">Kuota Kompetensi Keahlian</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -391,7 +398,7 @@
                             </tr>
                             <tr>
                                 <th scope="row">6</th>
-                                <td>Otomatisasi Tata Kelola Perkantoran (OTKP)</td>
+                                <td>Otomatisasi dan Tata Kelola Perkantoran (OTKP)</td>
                                 <td class="text-center">2</td>
                                 <td class="text-center">36</td>
                                 <td class="text-center">72</td>
@@ -405,48 +412,53 @@
                 </div>
             </div>
         </div>
-    </section>
 
-    <footer>
-        <div class="footer-top text-center">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-12 text-center">
-                        <h4 class="navbar-brand">SMKN 1 KRAGILAN <span class="dot"> TAHUN 2022.</span></h4>
-                        <p>Jl. Raya Serang - Jakarta KM. 13 Perum. Graha cisait Kec. Kragilan 42184 Serang - Banten</p>
-                        <div class="col-auto social-icons">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3966.832440357839!2d106.2609113147688!3d-6.153190495545025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1654394891019!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <footer>
+            <div class="footer-top text-center mt-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12 text-center">
+                            <h4 class="navbar-brand">SMKN 1 KRAGILAN <span class="dot"> TAHUN 2022.</span></h4>
+                            <p>Jl. Raya Serang - Jakarta KM. 13 Perum. Graha cisait Kec. Kragilan 42184 Serang - Banten</p>
+                            <div class="col-auto social-icons">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3966.832440357839!2d106.2609113147688!3d-6.153190495545025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1654394891019!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom text-center">
-            <p class="mb-0">Copyright@2022. Team IT SMKN 1 Kragilan, Support Theme by <a href="https://www.youtube.com/results?search_query=sa7man" style="color:#fff"> SA7MAN</a></p>
-        </div>
-    </footer>
+            <div class="footer-bottom text-center">
+                <article>
+                    <?php
+                    include("counter.php");
+                    echo "<p style='color:red; font-weight:enchant_broker_list_dicts(broker)'> Jumlah Pengunjung Web PPDB SMKN 1 Kragilan: <h1 style='color:red'>$kunjungan[0]</h1> Pengunjung</p>";
+                    ?>
+                </article>
+                <p class="mb-0">Copyright@2022. Team IT SMKN 1 Kragilan, Support Theme by <a href="https://www.youtube.com/results?search_query=sa7man" style="color:#fff"> SA7MAN</a></p>
+            </div>
+        </footer>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/app.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/app.js"></script>
 
 
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date();
-        (function() {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/629d5a08b0d10b6f3e75d805/1g4rafcb5';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {},
+                Tawk_LoadStart = new Date();
+            (function() {
+                var s1 = document.createElement("script"),
+                    s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/629d5a08b0d10b6f3e75d805/1g4rafcb5';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
 
 </body>
 

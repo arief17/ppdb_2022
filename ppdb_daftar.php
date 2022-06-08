@@ -46,7 +46,7 @@
     $tpm = "
             <div style='text-align:center!important;'>
             <img src='assets/img/jurusan/tpm.png' alt='' width='200px' height='200px' class='mt-5 text-center'>
-            <h2 class='card-title mt-3'>Jurusan Teknik Pemesinan (TPM)</h2>
+            <h2 class='card-title mt-3'>Kompetensi Keahlian Teknik Pemesinan (TPM)</h2>
             <a href='https://smkn1kragilan.sch.id/0/ppdb-3/daftar/tpm/' class='btn btn-primary col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran TPM</a>
             </div>
             ";
@@ -54,7 +54,7 @@
     $tkr = "
         <div style='text-align:center!important;'>
         <img src='assets/img/jurusan/tkr.png' alt='' width='200px' height='200px' class='mt-5'>
-        <h2 class='card-title mt-3'>Jurusan Teknik Kendaraan Ringan (TKR)</h2>
+        <h2 class='card-title mt-3'>Kompetensi Keahlian Teknik Kendaraan Ringan (TKR)</h2>
         <a href='https://smkn1kragilan.sch.id/0/ppdb-3/daftar/tkr/' class='btn btn-warning col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran TKR</a>
         
         ";
@@ -62,7 +62,7 @@
     $tkj = "
     <div style='text-align:center!important;'>
     <img src='assets/img/jurusan/tkj-1.png' alt='' width='200px' height='200px' class='mt-5'>
-    <h2 class='card-title mt-3'>Jurusan Teknik Komputer dan Jaringan (TKJ)</h2>
+    <h2 class='card-title mt-3'>Kompetensi Keahlian Teknik Komputer dan Jaringan (TKJ)</h2>
     <a href='https://smkn1kragilan.sch.id/0/ppdb-3/daftar/tkj/' class='btn btn-success col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran TKJ</a>
         
         ";
@@ -70,7 +70,7 @@
     $rpl = "
     <div style='text-align:center!important;'>
     <img src='assets/img/jurusan/rpl.png' alt='' width='200px' height='200px' class='mt-5'>
-    <h2 class='card-title mt-3'>Jurusan Rekayasa Perangkat Lunak (RPL)</h2>
+    <h2 class='card-title mt-3'>Kompetensi Keahlian Rekayasa Perangkat Lunak (RPL)</h2>
     <a href='https://smkn1kragilan.sch.id/0/ppdb-3/daftar/rpl/' class='btn btn-info col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran RPL</a>
     
     ";
@@ -78,7 +78,7 @@
     $otkp = "
     <div style='text-align:center!important;'>
     <img src='assets/img/jurusan/otkp.png' alt='' width='200px' height='200px' class='mt-5'>
-    <h2 class='card-title mt-3'>Jurusan Otomatisasi Tata Kelola Perkantoran (OTKP)</h2>
+    <h2 class='card-title mt-3'>Kompetensi Keahlian Otomatisasi dan Tata Kelola Perkantoran (OTKP)</h2>
     <a href='https://smkn1kragilan.sch.id/0/ppdb-3/daftar/otkp/' class='btn btn-secondary col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran OTKP</a>
     
     ";
@@ -99,20 +99,20 @@
                 </div>
                 <div class="col-md-10">
                     <div class="card-body shadow bg-body rounded">
-                        <h2 class="text-center">Pilih Jurusan Pendaftaran PPDB SMKN 1 Kragilan Tahun 2022</h2>
+                        <h2 class="text-center">Pilih Kompetensi Keahlian Pendaftaran PPDB SMKN 1 Kragilan Tahun 2022</h2>
                     </div>
                 </div>
             </div>
         </div>
         <h4 class="mt-5">
             <select class="form-select-lg col-md-6 text-center" id="jurusan" onchange="proses()">
-                <option value="">---- Pilih Jurusan ----</option>
-                <option value="<?php echo $tpm ?>">Teknik Pemesinan (TPM)</option>
-                <option value="<?php echo $tkr ?>">Teknik Kendaraan Ringan (TKR)</option>
-                <option value="<?php echo $tkj ?>">Teknik Komputer dan Jaringan (TKJ)</option>
-                <option value="<?php echo $rpl ?>">Rekayasa Perangkat Lunak (RPL)</option>
-                <option value="<?php echo $otkp ?>">Otomatisasi Tata Kelola Perkantoran (OTKP)</option>
-                <option value="<?php echo $akl ?>">Akuntansi Keuangan Lembaga (AKL)</option>
+                <option value="">---- Pilih Kompetensi Keahlian ----</option>
+                <option value="<?php echo $tpm ?>">Kompetensi Keahlian Teknik Pemesinan (TPM)</option>
+                <option value="<?php echo $tkr ?>">Kompetensi Keahlian Teknik Kendaraan Ringan (TKR)</option>
+                <option value="<?php echo $tkj ?>">Kompetensi Keahlian Teknik Komputer dan Jaringan (TKJ)</option>
+                <option value="<?php echo $rpl ?>">Kompetensi Keahlian Rekayasa Perangkat Lunak (RPL)</option>
+                <option value="<?php echo $otkp ?>">Kompetensi Keahlian Otomatisasi dan Tata Kelola Perkantoran (OTKP)</option>
+                <option value="<?php echo $akl ?>">Kompetensi Keahlian Akuntansi Keuangan Lembaga (AKL)</option>
             </select>
         </h4>
 
@@ -123,6 +123,8 @@
 
 
     </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 
     <script>
         function proses() {
