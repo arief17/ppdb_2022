@@ -104,8 +104,8 @@
                 </div>
             </div>
         </div>
-        <h4 class="mt-5">
-            <select class="form-select-lg col-md-6 text-center" id="jurusan" onchange="proses()">
+        <h2 class="mt-5">
+            <select class="form-select col-md-6 text-center" id="jurusan" onchange="proses()">
                 <option value="">---- Pilih Kompetensi Keahlian ----</option>
                 <option value="<?php echo $tpm ?>">Kompetensi Keahlian Teknik Pemesinan (TPM)</option>
                 <option value="<?php echo $tkr ?>">Kompetensi Keahlian Teknik Kendaraan Ringan (TKR)</option>
@@ -114,7 +114,7 @@
                 <option value="<?php echo $otkp ?>">Kompetensi Keahlian Otomatisasi dan Tata Kelola Perkantoran (OTKP)</option>
                 <option value="<?php echo $akl ?>">Kompetensi Keahlian Akuntansi Keuangan Lembaga (AKL)</option>
             </select>
-        </h4>
+        </h2>
 
         <div class="card p-3 shadow mb-3" style="background-color: #87c6c6;">
             <span id="pil_jurusan"></span>
