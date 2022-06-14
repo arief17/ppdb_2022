@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="assets/img/logo-ico.ico">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>PPDB SMKN 1 KRAGILAN - 2022</title>
@@ -39,63 +40,69 @@
     </nav>
 
     </section>
-    <?php
-    include 'hub/conn.php';
-    $pendaftar = mysqli_query($conn, "SELECT * FROM tb_siswa");
-    $jml_daftar = mysqli_num_rows($pendaftar);
-
-    ?>
 
     <!-- PENDAFTAR -->
-    <section id="pendaftar">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="text-center">
-                        <h1>JUMLAH PENDAFTAR TIAP KOMPETENSI KEAHLIAN</h1>
-                        <p class="mx-auto">Jumlah Pendaftaran Penerimaan Peserta Didik Baru (PPDB) Tahun 2022</p>
-                        <H1>TOTAL PENDAFTAR : <?= $jml_daftar ?> siswa</H1>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center mt-3">
+                    <h1>DATA PENDAFTAR PPDB SMKN 1 KRAGILAN</h1>
+                    <p class="mx-auto text-danger">* Silahkan Ketik Nama Siswa pada kolom Search Untuk Melakukan Pencarian</p>
+                    <hr class="mb-2">
+                </div>
 
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Kompetensi Keahlian</th>
-                                <th scope="col" class="text-center">Jumlah Pendaftar</th>
-                            </tr>
-                        </thead>
+                <table id="example" class="display" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nama Siswa</th>
+                            <th>Asal Sekolah</th>
+                            <th>Kompetensi Keahlian Pilihan</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
                         <?php
+                        include 'hub/conn.php';
                         $no = 1;
-
-                        $pendaftar = mysqli_query($conn, "SELECT kompetensi_keahlian,COUNT(*) AS total_pendaftar FROM tb_siswa GROUP BY kompetensi_keahlian");
-                        while ($b = mysqli_fetch_array($pendaftar)) {
+                        $siswa = mysqli_query($conn, "SELECT * FROM tb_siswa");
+                        while ($dsa = mysqli_fetch_array($siswa)) {
 
                         ?>
-                            <tbody>
-                                <tr>
-                                    <th scope="row"><?= $no++ ?></th>
-                                    <td><?= $b['kompetensi_keahlian'] ?></td>
-                                    <td class="text-center"><?= $b['total_pendaftar'] ?></td>
-                                </tr>
-                            <?php
-                        }
-                            ?>
                             <tr>
-                                <td colspan="2" class="table-active fw-bold text-center">Total Pendaftar</td>
-                                <td class="table-active fw-bold text-center"><?= $jml_daftar ?></td>
+                                <td><?= $no++ ?></td>
+                                <td><?= $dsa['nama_siswa'] ?></td>
+                                <td><?= $dsa['asal_sekola'] ?></td>
+                                <td><?= $dsa['kompetensi_keahlian'] ?></td>
                             </tr>
-                            </tbody>
-                    </table>
-                </div>
+                        <?php
+                        }
+                        ?>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>#</th>
+                            <th>Nama Siswa</th>
+                            <th>Asal Sekolah</th>
+                            <th>Kompetensi Keahlian Pilihan</th>
+                        </tr>
+                    </tfoot>
+                </table>
             </div>
         </div>
+    </div>
 
-    </section>
 
 
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+        });
+    </script>
 </body>
 
 </html>

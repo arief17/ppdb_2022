@@ -47,7 +47,7 @@
             <div style='text-align:center!important;'>
             <img src='assets/img/jurusan/tpm.png' alt='' width='200px' height='200px' class='mt-5 text-center'>
             <h2 class='card-title mt-3'>Kompetensi Keahlian Teknik Pemesinan (TPM)</h2>
-            <a href='https://smkn1kragilan.sch.id/0/ppdb-3/daftar/tpm/' class='btn btn-primary col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran TPM</a>
+            <a href='https://smkn1kragilan.sch.id/0/ppdb-v3/daftar/tpm/' class='btn btn-primary col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran TPM</a>
             </div>
             ";
 
@@ -55,7 +55,7 @@
         <div style='text-align:center!important;'>
         <img src='assets/img/jurusan/tkr.png' alt='' width='200px' height='200px' class='mt-5'>
         <h2 class='card-title mt-3'>Kompetensi Keahlian Teknik Kendaraan Ringan (TKR)</h2>
-        <a href='https://smkn1kragilan.sch.id/0/ppdb-3/daftar/tkr/' class='btn btn-warning col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran TKR</a>
+        <a href='https://smkn1kragilan.sch.id/0/ppdb-v3/daftar/tkr/' class='btn btn-warning col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran TKR</a>
         
         ";
 
@@ -63,7 +63,7 @@
     <div style='text-align:center!important;'>
     <img src='assets/img/jurusan/tkj-1.png' alt='' width='200px' height='200px' class='mt-5'>
     <h2 class='card-title mt-3'>Kompetensi Keahlian Teknik Komputer dan Jaringan (TKJ)</h2>
-    <a href='https://smkn1kragilan.sch.id/0/ppdb-3/daftar/tkj/' class='btn btn-success col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran TKJ</a>
+    <a href='https://smkn1kragilan.sch.id/0/ppdb-v3/daftar/tkj/' class='btn btn-success col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran TKJ</a>
         
         ";
 
@@ -71,7 +71,7 @@
     <div style='text-align:center!important;'>
     <img src='assets/img/jurusan/rpl.png' alt='' width='200px' height='200px' class='mt-5'>
     <h2 class='card-title mt-3'>Kompetensi Keahlian Rekayasa Perangkat Lunak (RPL)</h2>
-    <a href='https://smkn1kragilan.sch.id/0/ppdb-3/daftar/rpl/' class='btn btn-info col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran RPL</a>
+    <a href='https://smkn1kragilan.sch.id/0/ppdb-v3/daftar/rpl/' class='btn btn-info col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran RPL</a>
     
     ";
 
@@ -79,7 +79,7 @@
     <div style='text-align:center!important;'>
     <img src='assets/img/jurusan/otkp.png' alt='' width='200px' height='200px' class='mt-5'>
     <h2 class='card-title mt-3'>Kompetensi Keahlian Otomatisasi dan Tata Kelola Perkantoran (OTKP)</h2>
-    <a href='https://smkn1kragilan.sch.id/0/ppdb-3/daftar/otkp/' class='btn btn-secondary col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran OTKP</a>
+    <a href='https://smkn1kragilan.sch.id/0/ppdb-v3/daftar/otkp/' class='btn btn-secondary col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran OTKP</a>
     
     ";
 
@@ -87,7 +87,7 @@
     <div style='text-align:center!important;'>
     <img src='assets/img/jurusan/akl.png' alt='' width='200px' height='200px' class='mt-5'>
     <h2 class='card-title mt-3'>Jurusan Akuntansi Keuangan Lembaga (AKL)</h2>
-    <a href='https://smkn1kragilan.sch.id/0/ppdb-3/daftar/akl/' class='btn btn-danger col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran AKL</a>
+    <a href='https://smkn1kragilan.sch.id/0/ppdb-v3/daftar/akl/' class='btn btn-danger col-sm-3 btn-lg'><i class='bi bi-arrow-up-right-square'></i> &nbsp&nbsp Lanjut Pendaftaran AKL</a>
         
 ";
 
@@ -99,7 +99,7 @@
                 </div>
                 <div class="col-md-10">
                     <div class="card-body shadow bg-body rounded">
-                        <h2 class="text-center">Pilih Kompetensi Keahlian Pendaftaran PPDB SMKN 1 Kragilan Tahun 2022</h2>
+                        <h3 class="text-center">Pilih Kompetensi Keahlian Pendaftaran PPDB SMKN 1 Kragilan Tahun 2022</h3>
                     </div>
                 </div>
             </div>

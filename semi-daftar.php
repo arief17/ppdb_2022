@@ -31,7 +31,7 @@
             </div>
         </div>
 
-        <h5>PPDB akan dibuka Pada Tanggal 15 Juni 2022 Jam. 09.00 WIB</h5>
+        <h5>PPDB akan dibuka Pada Rabu, 15 Juni 2022 Jam. 06.00 WIB</h5>
 
         <div class="container">
             <div class="button-container">

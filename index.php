@@ -71,11 +71,13 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#pendaftar.php">Jumlah Pendaftar</a></li>
+                            <li><a class="dropdown-item" href="jml_pendaftar.php">Jumlah Pendaftar</a></li>
+                            <!-- <li><a class="dropdown-item" href="pendaftar.php">Data Pendaftar</a></li> -->
                         </ul>
                     </li>
                 </ul>
-                <a href="semi-daftar.php" class="btn btn-brand ms-lg-3">Daftar</a>
+                <a href="ppdb_daftar.php" class="btn btn-brand ms-lg-3">Daftar</a>
+                <!-- <a href="semi-daftar.php" class="btn btn-brand ms-lg-3">Login</a> -->
             </div>
         </div>
     </nav>
@@ -88,7 +90,7 @@
                     <div class="col-12 text-center text-white">
                         <h6 class="text-white text-uppercase">Selamat Datang di</h6>
                         <h1 class="display-3 my-4">PPDB SMKN 1 KRAGILAN TAHUN 2022</h1>
-                        <a href="semi-daftar.php" class="btn btn-brand">Daftar</a>
+                        <a href="ppdb_daftar.php" class="btn btn-brand">Daftar</a>
                         <a href="#" class="btn btn-outline-light ms-3">Cara Daftar</a>
                     </div>
                 </div>
@@ -100,7 +102,7 @@
                     <div class="col-12 col-lg-10 offset-lg-1 text-white">
                         <h6 class="text-white text-uppercase">Ayo Bergabung Bersama Kami</h6>
                         <h1 class="display-3 my-4">Raih Cita - Cita <br />SUKSES di MAsa Depan</h1>
-                        <a href="semi-daftar.php" class="btn btn-brand">Daftar</a>
+                        <a href="ppdb_daftar.php" class="btn btn-brand">Daftar</a>
                         <a href="#" class="btn btn-outline-light ms-3">Cara Daftar</a>
                     </div>
                 </div>
@@ -112,13 +114,17 @@
                     <div class="col-12 col-lg-10 offset-lg-1 text-white">
                         <h6 class="text-white text-uppercase">Terwujudnya SMK yang berkarakter,</h6>
                         <h1 class="display-3 my-4">menguasai IPTEK, <br />menghasilkan Lulusan yg unggul dan Kompetitif.</h1>
-                        <a href="semi-daftar.php" class="btn btn-brand">Daftar</a>
+                        <a href="ppdb_daftar.php" class="btn btn-brand">Daftar</a>
                         <a href="#" class="btn btn-outline-light ms-3">Cara Daftar</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <section>
+        <img src="assets/img/prov.png" alt="">
+    </section>
 
     <!-- JADWAL -->
     <section id="syarat">
@@ -250,7 +256,7 @@
                     <tr>
                         <th scope="row">8</th>
                         <td>Awal Tahun Ajaran 2022/2023</td>
-                        <td>11 Juli 2022</td>
+                        <td>18 Juli 2022</td>
                     </tr>
                 </tbody>
             </table>
@@ -263,7 +269,7 @@
             <div class="intro">
                 <h1>FLOW CHART / ALUR PENDAFTARAN</h1>
                 <p class="mx-auto">Berikut Flow Chart / Alur Pendaftaran PPDB SMKN 1 KRAGILAN TAHUN 2022</p>
-                <img src="assets/img/alur.png" alt="">
+                <img src="assets/img/alur_ppdb.png" alt="">
             </div>
         </div>
     </section>
@@ -445,15 +451,17 @@
 
         <!--Start of Tawk.to Script-->
         <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/5ec31e368ee2956d73a26427/default';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
+            var Tawk_API = Tawk_API || {},
+                Tawk_LoadStart = new Date();
+            (function() {
+                var s1 = document.createElement("script"),
+                    s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/5ec31e368ee2956d73a26427/default';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
         </script>
         <!--End of Tawk.to Script-->
 
