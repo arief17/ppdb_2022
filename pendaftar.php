@@ -72,7 +72,7 @@
                             <tr>
                                 <td><?= $no++ ?></td>
                                 <td><?= $dsa['nama_siswa'] ?></td>
-                                <td><?= $dsa['asal_sekola'] ?></td>
+                                <td><?= $dsa['asal_sekolah'] ?></td>
                                 <td><?= $dsa['kompetensi_keahlian'] ?></td>
                             </tr>
                         <?php
