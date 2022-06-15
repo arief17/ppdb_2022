@@ -72,7 +72,7 @@
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="jml_pendaftar.php">Jumlah Pendaftar</a></li>
-                            <!-- <li><a class="dropdown-item" href="pendaftar.php">Data Pendaftar</a></li> -->
+                            <li><a class="dropdown-item" href="pendaftar.php">Data Pendaftar</a></li>
                         </ul>
                     </li>
                 </ul>
