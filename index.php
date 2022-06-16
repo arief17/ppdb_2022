@@ -13,6 +13,7 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="assets/img/logo-ico.ico">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/popup.css">
 
     <title>PPDB SMKN 1 KRAGILAN - 2022</title>
 
@@ -21,6 +22,8 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+
 
 
     <!-- TOP NAV -->
@@ -91,7 +94,7 @@
                         <h6 class="text-white text-uppercase">Selamat Datang di</h6>
                         <h1 class="display-3 my-4">PPDB SMKN 1 KRAGILAN TAHUN 2022</h1>
                         <a href="ppdb_daftar.php" class="btn btn-brand">Daftar</a>
-                        <a href="#" class="btn btn-outline-light ms-3">Cara Daftar</a>
+                        <a href="https://www.youtube.com/watch?v=zsfQA_Iy3g8" class="btn btn-outline-light ms-3" target="_blank">Cara Daftar</a>
                     </div>
                 </div>
             </div>
@@ -103,7 +106,7 @@
                         <h6 class="text-white text-uppercase">Ayo Bergabung Bersama Kami</h6>
                         <h1 class="display-3 my-4">Raih Cita - Cita <br />SUKSES di MAsa Depan</h1>
                         <a href="ppdb_daftar.php" class="btn btn-brand">Daftar</a>
-                        <a href="#" class="btn btn-outline-light ms-3">Cara Daftar</a>
+                        <a href="https://www.youtube.com/watch?v=zsfQA_Iy3g8" class="btn btn-outline-light ms-3" target="_blank">Cara Daftar</a>
                     </div>
                 </div>
             </div>
@@ -115,7 +118,7 @@
                         <h6 class="text-white text-uppercase">Terwujudnya SMK yang berkarakter,</h6>
                         <h1 class="display-3 my-4">menguasai IPTEK, <br />menghasilkan Lulusan yg unggul dan Kompetitif.</h1>
                         <a href="ppdb_daftar.php" class="btn btn-brand">Daftar</a>
-                        <a href="#" class="btn btn-outline-light ms-3">Cara Daftar</a>
+                        <a href="https://www.youtube.com/watch?v=zsfQA_Iy3g8" class="btn btn-outline-light ms-3" target="_blank">Cara Daftar</a>
                     </div>
                 </div>
             </div>
@@ -449,6 +452,12 @@
         <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/app.js"></script>
 
+
+
+
+
+
+
         <!--Start of Tawk.to Script-->
         <script type="text/javascript">
             var Tawk_API = Tawk_API || {},
@@ -464,6 +473,8 @@
             })();
         </script>
         <!--End of Tawk.to Script-->
+
+
 
 </body>
 
