@@ -14,6 +14,7 @@
     <link rel="icon" type="image/x-icon" href="assets/img/logo-ico.ico">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <title>PPDB SMKN 1 KRAGILAN - 2022</title>
 
@@ -24,6 +25,48 @@
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
 
 
+
+    <div id="modal_popup" class="modal animate__animated animate__backInDown" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        #INFO PPDB 2022 - SMKN 1 KRAGILAN
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ol class="mb-5">
+                        <h4>
+                            <li>
+                                Pastikan Anda Sudah Terdaftar dan Cetak Bukti Pendaftaran
+                            </li>
+                        </h4>
+                        <i style="color: red;">Cetak Bukti Pendaftaran Silahkan Login ke Akun Masing - Masing <a href="ppdb_daftar.php">Login</a></i><br>
+                        Untuk Cek data Pendaftar : Klik <a href="pendaftar.php">Data Pendaftar</a>
+                        <h4>
+                            <li>
+                                Cek Kuota dan Jumlah Pendaftar
+                            </li>
+                        </h4>
+
+                        Untuk Cek Kuota dan Jumlah Pendaftar : Klik <a href="jml_pendaftar.php">Jumlah Pendaftar</a>
+
+                        <h4>
+                            <li>Bukti Pendaftaran dan Berkas Pendukung Lainnya dibawa Saat Tes Uji Kompetensi Keahlian</li>
+                        </h4>
+                    </ol>
+
+
+                    <h3 class="text-center text-danger mt-5">Jadwal Pendaftaran : 15 - 20 Juni 2022</h3>
+                    <h4 class="fw-bold">Pendaftaran <span class="text-danger">GRATISSSS</span> Tidak dipungut Biaya........</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- TOP NAV -->
@@ -46,14 +89,14 @@
     <!-- BOTTOM NAV -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""> PPDB SMKN 1 <span class="dot">KRAGILAN 2022.</span></a>
+            <a class="navbar-brand" href="index.php"><img src="assets/img/logo.png" alt=""> PPDB SMKN 1 <span class="dot">KRAGILAN 2022.</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#syarat">Syarat Daftar</a>
@@ -452,6 +495,11 @@
         <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/app.js"></script>
 
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#modal_popup').modal('show');
+            });
+        </script>
 
 
 
