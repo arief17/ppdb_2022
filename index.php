@@ -51,6 +51,12 @@
                         </h4>
 
                         Untuk Cek Kuota dan Jumlah Pendaftar : Klik <a href="jml_pendaftar.php">Jumlah Pendaftar</a>
+                        <h4>
+                            <li>
+                                Cetak Tanda Bukti Kelengkapan berkas Untuk Proses Penyerahan Berkas
+                            </li>
+                        </h4>
+                        <i style="color: red;">Cetak Tanda Bukti Kelengkapan Berkas. Silahkan Login ke Akun Masing - Masing <a href="ppdb_daftar.php">Login</a></i><br>
 
                         <h4>
                             <li>Bukti Pendaftaran dan Berkas Pendukung Lainnya dibawa Saat Tes Uji Kompetensi Keahlian</li>
@@ -58,7 +64,7 @@
                     </ol>
 
 
-                    <h3 class="text-center text-danger mt-5">Jadwal Pendaftaran : 15 - 20 Juni 2022</h3>
+                    <h3 class="text-center text-danger mt-5">Maksimal Pendaftaran : 20 Juni 2022 Pukul 16.00</h3>
                     <h4 class="fw-bold">Pendaftaran <span class="text-danger">GRATISSSS</span> Tidak dipungut Biaya........</h4>
                 </div>
                 <div class="modal-footer">
