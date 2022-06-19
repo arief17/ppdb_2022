@@ -63,6 +63,155 @@
                         </h4>
                     </ol>
 
+                    <div class="text-center">
+                        <h4>Untuk Bergabung Ke Group Whatsapp</h4>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#group_popup">Gabung Group</a>
+
+                    </div>
+
+                    <div class="text-center mt-3">
+                        <h4>Jadwal Uji Kompetensi</h4>
+                        <a href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#jadwal_popup">Lihat Jadwal</a>
+
+                    </div>
+
+
+
+                    <h3 class="text-center text-danger mt-5">Maksimal Pendaftaran : 20 Juni 2022 Pukul 16.00</h3>
+                    <h4 class="fw-bold">Pendaftaran <span class="text-danger">GRATISSSS</span> Tidak dipungut Biaya........</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="group_popup" class="modal animate__animated animate__backInUp" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        #GROUP WHATSAPP - KOMPETENSI KEAHLIAN
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="text-center">
+                        <h4 class="mb-3">Untuk Bergabung Ke Group Whatsapp Klik Tautan dibawah ini</h4>
+                        <a href="https://chat.whatsapp.com/CvZFcvmhYyhKh3Hpkwyrhd" style="text-decoration: none;">
+                            <h5>Teknik Pemesinan (TPM)</h5>
+                        </a><br>
+                        <a href="https://chat.whatsapp.com/Fy4O0qJUXgNHt6C3oztud2" style="text-decoration: none;">
+                            <h5>Teknik Kendaraan Ringan (TKR)</h5>
+                        </a><br>
+                        <a href="https://chat.whatsapp.com/BnWpaApLzPA43WM87tDcQ8" style="text-decoration: none;">
+                            <h5>Teknik Komputer dan Jaringan (TKJ)</h5>
+                        </a><br>
+                        <a href="https://chat.whatsapp.com/EPviL0ny3VQ5sjsYLN5Vmb" style="text-decoration: none;">
+                            <h5>Rekayasa Perangkat Lunak (RPL)</h5>
+                        </a><br>
+                        <a href="https://chat.whatsapp.com/CR8FU37OCrj4mNFMoIlxID" style="text-decoration: none;">
+                            <h5>Akuntansi Keuangan Lembaga (AKL)</h5>
+                        </a><br>
+                        <a href="https://chat.whatsapp.com/C60hXnUGFPt08ymbTJwFKt" style="text-decoration: none;">
+                            <h5>Otomatisasi dan tata Kelola Perkantoran (OTKP)</h5>
+                        </a>
+                    </div>
+
+
+
+                    <h3 class="text-center text-danger mt-5">Maksimal Pendaftaran : 20 Juni 2022 Pukul 16.00</h3>
+                    <h4 class="fw-bold">Pendaftaran <span class="text-danger">GRATISSSS</span> Tidak dipungut Biaya........</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="jadwal_popup" class="modal animate__animated animate__backInLeft" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        #JADWAL UJI KOMPETENSI - TES KHUSUS
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div>
+                        <table class="table table-striped table-hover">
+                            <tr>
+                                <th>Kompetensi Keahlian</th>
+                                <th>Tanggal</th>
+                            </tr>
+                            <tr>
+                                <td>1. Teknik Pemesinan (TPM)</td>
+                                <td>21 Juni 2022</td>
+                            </tr>
+                            <tr>
+                                <td>2. Teknik Kendaraan Ringan Otomotif (TKR)</td>
+                                <td>22 Juni 2022</td>
+                            </tr>
+                            <tr>
+                                <td>3. Rekayasa Perangkat Lunak (RPL)</td>
+                                <td>23 Juni 2022</td>
+                            </tr>
+                            <tr>
+                                <td>4. Teknik Komputer dan Jaringan (TKJ)</td>
+                                <td>24 Juni 2022</td>
+                            </tr>
+                            <tr>
+                                <td>5. Otomatisasi dan Tata Kelola Perkantoran (OTKP)</td>
+                                <td>27 Juni 2022</td>
+                            </tr>
+                            <tr>
+                                <td>6. Akuntansi dan Keuangan Lembaga (AKL)</td>
+                                <td>28 Juni 2022</td>
+                            </tr>
+                        </table>
+
+                        <div class="text-center mt-3">
+                            <h4>Petunjuk Mengikuti Uji Kompetensi</h4>
+                            <a href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#syarat_popup">Lihat Petunjuk UjiKom</a>
+
+                        </div>
+                    </div>
+
+
+
+                    <h3 class="text-center text-danger mt-5">Maksimal Pendaftaran : 20 Juni 2022 Pukul 16.00</h3>
+                    <h4 class="fw-bold">Pendaftaran <span class="text-danger">GRATISSSS</span> Tidak dipungut Biaya........</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal syarat test ujikom -->
+    <div id="syarat_popup" class="modal animate__animated animate__backInRight" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        #PETUNJUK MENGIKUTI UJI KOMPETENSI - TES KHUSUS
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div>
+                        <img src="assets/img/ukom.jfif" alt="">
+                    </div>
+
+
 
                     <h3 class="text-center text-danger mt-5">Maksimal Pendaftaran : 20 Juni 2022 Pukul 16.00</h3>
                     <h4 class="fw-bold">Pendaftaran <span class="text-danger">GRATISSSS</span> Tidak dipungut Biaya........</h4>
@@ -486,12 +635,12 @@
                 </div>
             </div>
             <div class="footer-bottom text-center">
-                <article>
+                <!-- <article>
                     <?php
-                    include("counter.php");
-                    echo "<p style='color:red; font-weight:enchant_broker_list_dicts(broker)'> Jumlah Pengunjung Web PPDB SMKN 1 Kragilan: <h1 style='color:red'>$kunjungan[0]</h1> Pengunjung</p>";
+                    //include("counter.php");
+                    //echo "<p style='color:red; font-weight:enchant_broker_list_dicts(broker)'> Jumlah Pengunjung Web PPDB SMKN 1 Kragilan: <h1 style='color:red'>$kunjungan[0]</h1> Pengunjung</p>";
                     ?>
-                </article>
+                </article> -->
                 <p class="mb-0">Copyright@2022. Team IT SMKN 1 Kragilan, Support Theme by <a href="https://www.youtube.com/results?search_query=sa7man" style="color:#fff"> SA7MAN</a></p>
             </div>
         </footer>
