@@ -77,7 +77,7 @@
 
 
 
-                    <h3 class="text-center text-danger mt-5">Maksimal Pendaftaran : 20 Juni 2022 Pukul 16.00</h3>
+                    <h3 class="text-center text-danger mt-5">Pendaftaran Sudah di TUTUP</h3>
                     <h4 class="fw-bold">Pendaftaran <span class="text-danger">GRATISSSS</span> Tidak dipungut Biaya........</h4>
                 </div>
                 <div class="modal-footer">
@@ -123,7 +123,7 @@
 
 
 
-                    <h3 class="text-center text-danger mt-5">Maksimal Pendaftaran : 20 Juni 2022 Pukul 16.00</h3>
+                    <h3 class="text-center text-danger mt-5">Pendaftaran Sudah di TUTUP</h3>
                     <h4 class="fw-bold">Pendaftaran <span class="text-danger">GRATISSSS</span> Tidak dipungut Biaya........</h4>
                 </div>
                 <div class="modal-footer">
@@ -179,13 +179,16 @@
                         <div class="text-center mt-3">
                             <h4>Petunjuk Mengikuti Uji Kompetensi</h4>
                             <a href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#syarat_popup">Lihat Petunjuk UjiKom</a>
-
+                        </div>
+                        <div class="text-center mt-3">
+                            <h4>Petunjuk SelKom</h4>
+                            <a href="https://www.youtube.com/watch?v=Yt5qRfJs2m4" class="btn btn-warning" target="_blank">Lihat Petunjuk UjiKom</a>
                         </div>
                     </div>
 
 
 
-                    <h3 class="text-center text-danger mt-5">Maksimal Pendaftaran : 20 Juni 2022 Pukul 16.00</h3>
+                    <h3 class="text-center text-danger mt-5">Pendaftaran Sudah di TUTUP</h3>
                     <h4 class="fw-bold">Pendaftaran <span class="text-danger">GRATISSSS</span> Tidak dipungut Biaya........</h4>
                 </div>
                 <div class="modal-footer">
@@ -213,7 +216,7 @@
 
 
 
-                    <h3 class="text-center text-danger mt-5">Maksimal Pendaftaran : 20 Juni 2022 Pukul 16.00</h3>
+                    <h3 class="text-center text-danger mt-5">Pendaftaran Sudah di TUTUP</h3>
                     <h4 class="fw-bold">Pendaftaran <span class="text-danger">GRATISSSS</span> Tidak dipungut Biaya........</h4>
                 </div>
                 <div class="modal-footer">
@@ -277,7 +280,7 @@
                         </ul>
                     </li>
                 </ul>
-                <a href="ppdb_daftar.php" class="btn btn-brand ms-lg-3">Daftar</a>
+                <a href="ppdb_daftar.php" class="btn btn-brand ms-lg-3">Login</a>
                 <!-- <a href="semi-daftar.php" class="btn btn-brand ms-lg-3">Login</a> -->
             </div>
         </div>
@@ -291,8 +294,8 @@
                     <div class="col-12 text-center text-white">
                         <h6 class="text-white text-uppercase">Selamat Datang di</h6>
                         <h1 class="display-3 my-4">PPDB SMKN 1 KRAGILAN TAHUN 2022</h1>
-                        <a href="ppdb_daftar.php" class="btn btn-brand">Daftar</a>
-                        <a href="https://www.youtube.com/watch?v=zsfQA_Iy3g8" class="btn btn-outline-light ms-3" target="_blank">Cara Daftar</a>
+                        <a href="ppdb_daftar.php" class="btn btn-brand">Login</a>
+                        <a href="https://www.youtube.com/watch?v=Yt5qRfJs2m4" class="btn btn-outline-light ms-3" target="_blank">Cara Mengikuti SelKom</a>
                     </div>
                 </div>
             </div>
@@ -303,8 +306,8 @@
                     <div class="col-12 col-lg-10 offset-lg-1 text-white">
                         <h6 class="text-white text-uppercase">Ayo Bergabung Bersama Kami</h6>
                         <h1 class="display-3 my-4">Raih Cita - Cita <br />SUKSES di MAsa Depan</h1>
-                        <a href="ppdb_daftar.php" class="btn btn-brand">Daftar</a>
-                        <a href="https://www.youtube.com/watch?v=zsfQA_Iy3g8" class="btn btn-outline-light ms-3" target="_blank">Cara Daftar</a>
+                        <a href="ppdb_daftar.php" class="btn btn-brand">Login</a>
+                        <a href="https://www.youtube.com/watch?v=Yt5qRfJs2m4" class="btn btn-outline-light ms-3" target="_blank">Cara Mengikuti SelKom</a>
                     </div>
                 </div>
             </div>
@@ -315,8 +318,8 @@
                     <div class="col-12 col-lg-10 offset-lg-1 text-white">
                         <h6 class="text-white text-uppercase">Terwujudnya SMK yang berkarakter,</h6>
                         <h1 class="display-3 my-4">menguasai IPTEK, <br />menghasilkan Lulusan yg unggul dan Kompetitif.</h1>
-                        <a href="ppdb_daftar.php" class="btn btn-brand">Daftar</a>
-                        <a href="https://www.youtube.com/watch?v=zsfQA_Iy3g8" class="btn btn-outline-light ms-3" target="_blank">Cara Daftar</a>
+                        <a href="ppdb_daftar.php" class="btn btn-brand">Login</a>
+                        <a href="https://www.youtube.com/watch?v=Yt5qRfJs2m4" class="btn btn-outline-light ms-3" target="_blank">Cara Mengikuti SelKom</a>
                     </div>
                 </div>
             </div>
