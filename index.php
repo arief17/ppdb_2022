@@ -70,8 +70,8 @@
                     </div>
 
                     <div class="text-center mt-3">
-                        <h4>Jadwal Uji Kompetensi</h4>
-                        <a href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#jadwal_popup">Lihat Jadwal</a>
+                        <h4>Info Uji Kompetensi Keahlian dan Tes Wawancara</h4>
+                        <a href="#" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#syarat_popup">Lihat Info</a>
 
                     </div>
 
@@ -204,14 +204,40 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">
-                        #PETUNJUK MENGIKUTI UJI KOMPETENSI - TES KHUSUS
+                        #ALUR, JADWAL SESI TES AKADEMIK DAN WAWANCARA
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
 
                     <div>
-                        <img src="assets/img/ukom.jfif" alt="">
+                        <div class="row text-center mb-3">
+                            <h5 class="mb-4">Klik Tombol dibawah ini untuk melihat Jadwal Sesi</h5>
+
+                            <div class="col-sm-2">
+                                <a href="https://drive.google.com/file/d/1vlwMQWjYxZr-VRgU3oso6LDfbU4YExMe/view?usp=sharing" class="btn btn-danger" target="_blank">TPM</a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="https://drive.google.com/file/d/1qqFadllxAHAAaWJU2x-k4855PrnlF4IF/view?usp=sharing" class="btn btn-warning" target="_blank">TKR</a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="https://drive.google.com/file/d/1rQ7TmFFo2SLidAVHGVEtrKl3CpOoL21m/view?usp=sharing" class="btn btn-success" target="_blank">TKJ</a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="https://drive.google.com/file/d/1gDxNNtZnn5S5XtA1y_XnnoAUYmRgD7D7/view?usp=sharing" class="btn btn-primary" target="_blank">RPL</a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="https://drive.google.com/file/d/1E5rx9WHBd92EYLAlwCxFfnqhTz5fTKEP/view?usp=sharing" class="btn btn-secondary" target="_blank">AKL</a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="https://drive.google.com/file/d/1tR9yFmYcI8jD9kTpAhCKqrcASOgbSLBs/view?usp=sharing" class="btn btn-info" target="_blank">OTKP</a>
+                            </div>
+                        </div>
+                        <h4 class="mt-3"><span class="text-danger">NOTE :</span><br>
+                            - Mohon Semua Berkas Pendaftaran dibawa <br>
+                            - Khusus SKL dibawa yang ASLI
+                        </h4>
+                        <img src="assets/img/alur_ukom.jpg" alt="">
                     </div>
 
 
