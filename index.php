@@ -23,10 +23,33 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
-
-
-
     <div id="modal_popup" class="modal animate__animated animate__backInDown" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        #INFO PPDB 2022 - SMKN 1 KRAGILAN
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+
+                    <h3 class="text-danger">Pendaftaran Sudah di TUTUP...!!!</h3>
+                    <h2 class="mt-5">Pengumuman Kelulusan PPDB Tahun 2022</h2>
+
+                    <h5>Pengumuman Hasil Seleksi PPDB Tgl 04 Juli 2022 Jam 08.00 WIB</h5>
+                    <h5 class="text-success mt-3">Pengumuman bisa di cek di Akun Masing - Masing Pada Waktu Tersebut</h5>
+                    <a href="ppdb_login.php" class="btn btn-primary mt-5">Cek Pengumuman</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div id="modal_popup" class="modal animate__animated animate__backInDown" tabindex="-1">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
@@ -85,7 +108,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div id="group_popup" class="modal animate__animated animate__backInUp" tabindex="-1">
@@ -291,7 +314,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#alur">Alur Pendaftaran</a>
                     </li>
-                    <li class="nav-item dropdown mb-3">
+                    <!-- <li class="nav-item dropdown mb-3">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Informasi Pendaftaran
                         </a>
@@ -304,9 +327,9 @@
                             <li><a class="dropdown-item" href="jml_pendaftar.php">Jumlah Pendaftar</a></li>
                             <li><a class="dropdown-item" href="pendaftar.php">Data Pendaftar</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
-                <a href="ppdb_daftar.php" class="btn btn-brand ms-lg-3">Login</a>
+                <a href="ppdb_login.php" class="btn btn-brand ms-lg-3">Login</a>
                 <!-- <a href="semi-daftar.php" class="btn btn-brand ms-lg-3">Login</a> -->
             </div>
         </div>
@@ -320,7 +343,7 @@
                     <div class="col-12 text-center text-white">
                         <h6 class="text-white text-uppercase">Selamat Datang di</h6>
                         <h1 class="display-3 my-4">PPDB SMKN 1 KRAGILAN TAHUN 2022</h1>
-                        <a href="ppdb_daftar.php" class="btn btn-brand">Login</a>
+                        <a href="ppdb_login.php" class="btn btn-brand">Login</a>
                         <a href="https://www.youtube.com/watch?v=Yt5qRfJs2m4" class="btn btn-outline-light ms-3" target="_blank">Cara Mengikuti SelKom</a>
                     </div>
                 </div>
@@ -332,7 +355,7 @@
                     <div class="col-12 col-lg-10 offset-lg-1 text-white">
                         <h6 class="text-white text-uppercase">Ayo Bergabung Bersama Kami</h6>
                         <h1 class="display-3 my-4">Raih Cita - Cita <br />SUKSES di MAsa Depan</h1>
-                        <a href="ppdb_daftar.php" class="btn btn-brand">Login</a>
+                        <a href="ppdb_login.php" class="btn btn-brand">Login</a>
                         <a href="https://www.youtube.com/watch?v=Yt5qRfJs2m4" class="btn btn-outline-light ms-3" target="_blank">Cara Mengikuti SelKom</a>
                     </div>
                 </div>
@@ -344,7 +367,7 @@
                     <div class="col-12 col-lg-10 offset-lg-1 text-white">
                         <h6 class="text-white text-uppercase">Terwujudnya SMK yang berkarakter,</h6>
                         <h1 class="display-3 my-4">menguasai IPTEK, <br />menghasilkan Lulusan yg unggul dan Kompetitif.</h1>
-                        <a href="ppdb_daftar.php" class="btn btn-brand">Login</a>
+                        <a href="ppdb_login.php" class="btn btn-brand">Login</a>
                         <a href="https://www.youtube.com/watch?v=Yt5qRfJs2m4" class="btn btn-outline-light ms-3" target="_blank">Cara Mengikuti SelKom</a>
                     </div>
                 </div>
