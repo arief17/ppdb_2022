@@ -14,6 +14,7 @@
     <link rel="icon" type="image/x-icon" href="assets/img/logo-ico.ico">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/popup.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/pengumuman.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <title>PPDB SMKN 1 KRAGILAN - 2022</title>
@@ -35,11 +36,42 @@
                 <div class="modal-body text-center">
 
                     <h3 class="text-danger">Pendaftaran Sudah di TUTUP...!!!</h3>
-                    <h2 class="mt-5">Pengumuman Kelulusan PPDB Tahun 2022</h2>
+                    <h2 class="mt-5 mb-5">Pengumuman Kelulusan PPDB Tahun 2022</h2>
+                    <br>
 
-                    <h5>Pengumuman Hasil Seleksi PPDB Tgl 04 Juli 2022 Jam 08.00 WIB</h5>
-                    <h5 class="text-success mt-3">Pengumuman bisa di cek di Akun Masing - Masing Pada Waktu Tersebut</h5>
-                    <a href="ppdb_login.php" class="btn btn-primary mt-5">Cek Pengumuman</a>
+                    <?php
+                    date_default_timezone_set('Asia/Jakarta');
+                    $date =  date('d-m-Y H:i:s');
+
+
+
+                    if ($date > date('04-07-2022 00:00:00')) {
+                        echo "<a href='ppdb_login.php' class='btn btn-primary'>Cek Pengumuman</a";
+                    } else {
+
+                    ?>
+
+                        <div id="clock" class="text-center">
+                            <div><span id="days"></span>
+                                <p>Hari</p>
+                            </div>
+                            <div><span id="hours"></span>
+                                <p>Jam</p>
+                            </div>
+                            <div><span id="minutes"></span>
+                                <p>Menit</p>
+                            </div>
+                            <div><span id="seconds"></span>
+                                <p>Detik</p>
+                            </div>
+                        </div>
+
+                    <?php
+                    }
+                    ?>
+
+                    <br>
+                    <h5 class="text-success mt-3">Pengumuman bisa di cek di Akun Masing - Masing <br> Pada Tanggal 04 Juli 2022 Pukul 00.00 WIB</h5>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
@@ -696,7 +728,7 @@
                 <p class="mb-0">Copyright@2022. Team IT SMKN 1 Kragilan, Support Theme by <a href="https://www.youtube.com/results?search_query=sa7man" style="color:#fff"> SA7MAN</a></p>
             </div>
         </footer>
-
+        <script type="text/javascript" src="assets/js/main.js"></script>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/owl.carousel.min.js"></script>

@@ -12,7 +12,7 @@ function Countdown() {
     var menit = document.getElementById("minutes");
     var detik = document.getElementById("seconds");
 
-    var deadline = new Date("June 15, 2022 05:59:59");
+    var deadline = new Date("July 03, 2022 23:59:59");
     var waktu = new Date();
     var distance = deadline - waktu;
 
