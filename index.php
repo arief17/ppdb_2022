@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/img/logo-ico.ico">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/popup.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/pengumuman.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <title>PPDB SMKN 1 KRAGILAN - 2022</title>
@@ -46,7 +46,7 @@
 
 
                     if ($date > date('04-07-2022 00:00:00')) {
-                        echo "<a href='ppdb_login.php' class='btn btn-primary'>Cek Pengumuman</a";
+                        echo "<a href='ppdb_login.php' class='btn btn-primary'>Cek Pengumuman</a><br/>";
                     } else {
 
                     ?>
@@ -71,6 +71,7 @@
                     ?>
 
                     <br>
+                    <a href="https://drive.google.com/file/d/1PYh_UrhxEzI_1JzpecOSUxeFx57_B1bu/view?usp=sharing" target="_blank">SK Kelulusan PPDB SMKN 1 Kragilan Tahun 2022</a>
                     <h5 class="text-success mt-3">Pengumuman bisa di cek di Akun Masing - Masing <br> Pada Tanggal 04 Juli 2022 Pukul 00.00 WIB</h5>
                 </div>
                 <div class="modal-footer">
